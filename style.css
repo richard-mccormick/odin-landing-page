@@ -152,6 +152,7 @@ ul  {
     flex-direction: column;
     padding-top: 64px;
     padding-bottom: 64px;
+    margin-bottom: 64px;
     background-color: #E5E7EB;
     align-items: center;
 }
@@ -172,6 +173,13 @@ ul  {
 
 .four {
     display: flex;
+    justify-content: space-between;
     margin-left: 256px;
-    
+    margin-right: 256px;
+    padding: 50px 200px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
 }
+
+
