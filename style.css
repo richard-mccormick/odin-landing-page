@@ -1,10 +1,15 @@
 * {
     margin: 0;
+    text-decoration: none;
 }
 body {
     font-family: "DeJaVu Serif", Arial, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+a {
+    color: #E5E7EB;
 }
 /*
 div {
