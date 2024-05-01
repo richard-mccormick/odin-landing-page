@@ -10,7 +10,7 @@ div {
 }
 */
 
-.header, .one, .two, .three, .four, .footer {
+.header, .one, .two, .three, .footer {
     padding-left: 256px;
     padding-right: 256px;
     margin: 0;
@@ -59,32 +59,32 @@ ul  {
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    flex: 1;
+    flex-grow: 1;
     gap: 10px;
     margin-right: 0;
 }
 
 .hero-main {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .hero-secondary {
-    font-size: 24px;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
 .sign-up {
     background-color:#3882F6;
     color: #F9FAF8;
-    width: 120px;
-    height: 40px;
+    width: 110px;
+    height: 35px;
     box-sizing: border-box;
     border-radius: 5px;
     border: 0;
     flex-shrink: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     transition-duration: 0.4s;
     box-sizing: border-box;
@@ -98,19 +98,19 @@ ul  {
 
 
 .hero-image {
-    width: 600px;
+    width: 800px;
     height: auto;
     margin: 0;
     padding: 0;
-    flex: 1;
+    flex-grow: 1;
 }
 
 .two {
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
-    padding-bottom: 72px;
-    gap: 72px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 64px;
 }
 
 .info-header {
@@ -123,7 +123,7 @@ ul  {
 .info {
     display: flex;
     justify-content: center;
-    gap: 40px
+    gap: 40px;
 }
 
 .infobox {
@@ -145,4 +145,33 @@ ul  {
     text-align: center;
     font-size: 12px;
     color: #292929;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bolder;
+    align-self: flex-end;
+    padding-right: 350px;
+}
+
+.four {
+    display: flex;
+    margin-left: 256px;
+    
 }
