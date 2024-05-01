@@ -13,6 +13,7 @@ div {
 .header, .one, .two, .three, .four, .footer {
     padding-left: 256px;
     padding-right: 256px;
+    margin: 0;
 }
 ul  {
     list-style: none;
@@ -107,4 +108,41 @@ ul  {
 .two {
     display: flex;
     flex-direction: column;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 72px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 150px;
+}
+
+.info-square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 12px;
+    color: #292929;
 }
