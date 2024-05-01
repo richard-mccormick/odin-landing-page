@@ -3,31 +3,21 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/*
 div {
     padding-left: 128px;
     padding-right: 256px;
 }
+*/
 
+.header, .one, .two, .three, .four, .footer {
+    padding-left: 256px;
+    padding-right: 256px;
+}
 ul  {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-button {
-    background-color:#3882F6;
-    color: #F9FAF8;
-    width: 100px;
-    height: 30px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 0;
-    margin-left: 128px;
-    flex-shrink: 0;
-    font-size: 14px;
-    font-weight: bold;
-
 }
 
 .header {
@@ -60,6 +50,7 @@ button {
     padding-top: 50px;
     padding-bottom: 100px;
     align-content: center;
+    gap: 96px;
 }
 
 .one-left {
@@ -69,22 +60,51 @@ button {
     padding: 0;
     flex: 1;
     gap: 10px;
+    margin-right: 0;
 }
 
 .hero-main {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .hero-secondary {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
 }
+
+.sign-up {
+    background-color:#3882F6;
+    color: #F9FAF8;
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    box-sizing: border-box;
+
+}
+
+.sign-up:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
 
 .hero-image {
     width: 600px;
     height: auto;
     margin: 0;
     padding: 0;
+    flex: 1;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
 }
