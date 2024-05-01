@@ -176,10 +176,32 @@ ul  {
     justify-content: space-between;
     margin-left: 256px;
     margin-right: 256px;
-    padding: 50px 200px;
+    margin-bottom: 64px;
+    padding: 50px 150px;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     border-radius: 10px;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-subtext {
+    font-size: 14px;
+}
+
+.four-right {
+    border: solid 2px #F9FAF8;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: #F9FAF8;
+    height: 64px;
+    text-align: center;
+    padding-top: 38px;
 }
 
 
