@@ -1,3 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "DeJaVu Serif", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+div, button {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
 }
